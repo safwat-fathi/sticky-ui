@@ -1,0 +1,47 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+.content {
+  border: 2px dotted green;
+  min-height: 3000px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.sidebar {
+  padding: 1rem;
+  border: 2px dotted red;
+  margin: 1rem 0;
+}
+
+.sticky {
+  color: darkgrey;
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  align-self: start;
+  max-height: 100vh;
+  overflow-y: auto;
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}

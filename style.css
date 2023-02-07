@@ -1,0 +1,26 @@
+html,
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.content {
+  border: 2px dotted green;
+  min-height: 2000px;
+  padding: 1rem;
+  color: darkgrey;
+  width: 400px;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.sidebar__inner {
+  padding: 1rem;
+  border: 2px dotted red;
+}
